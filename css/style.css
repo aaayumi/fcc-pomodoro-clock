@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One|Patua+One');
+
+body {
+  padding: 20px;
+  font-family: "Fredoka One",sans-serif;
+  background-color: #fff3b8;
+  color: #505050;
+}
+
+h2 {
+  margin-top:10px;
+  font-size: 50px;
+  text-align:center;
+}
+.row {
+  position:relative;
+  width:500px;
+  margin:auto;
+  margin-left: 0 auto;
+  text: center;
+}
+
+#seccion {
+  margin: auto;
+}
+
+/* work seccion */
+.workSec{
+  border: 3px dashed #ff6347;
+  padding: 0px 20px 20px 20px;
+  background: #ffeaea;
+}
+.workSec h3 {
+  margin-top:20px;
+  color:#ff6347;
+}
+
+.work {
+  font-size: 25px;
+}
+/* break seccion */
+.breakSec {
+  border: 3px dashed #1e90ff;
+  padding: 0px 20px 20px 20px;
+  background: #eaffff;
+}
+.breakSec h3 {
+   margin-top:20px;
+  color:#1e90ff;
+}
+
+.break {
+  font-size: 25px;
+}
+
+/* clock seccion */
+.clockSec {
+  margin: auto;
+}
+
+.clockTitle {
+  margin-top: 30px;
+}
+
+.clocktime {
+  font-size: 50px;
+}
+
+button {
+  margin-top:10px;
+  border-radius: 10%;
+  border:none;
+  background-color: #ffa07a;
+  box-shadow: 0px 4px 0px 0px #f4a460;
+  font-family: "Fredoka One",sans-serif;
+  color:#505050;
+  padding: 0px 10px 0px 10px;
+  font-size: 25px;
+}
+
+.btn1 , .btn2 {
+  background-color: #ffa07a;
+  box-shadow: 0px 4px 0px 0px #fa8072;
+  margin: 10px 10px 10px 10px;
+}
+
+.btn1:active , .btn2:active {
+  background-color: #fa8072;
+  box-shadow: 0px 2px 0px 0px #fa8072;
+  transform: translateY(2px);
+}
+
+.btn3 , .btn4 {
+  background-color: #afeeee;
+  box-shadow: 0px 4px 0px 0px #87ceeb;
+  margin: 10px 10px 10px 10px;
+}
+
+.btn3:active , .btn4:active {
+   background-color: #87ceeb;
+   box-shadow: 0px 2px 0px 0px #87ceeb;
+  transform: translateY(2px);
+}
+
+.start, .pause, .reset {
+  background-color: #ffd700;
+  box-shadow: 0px 4px 0px 0px #ffa500;
+  margin: 10px 5px 20px 5px;
+  padding: 5px 10px 5px 10px;
+}
+.start:active, .pause:active, .resume:active, .reset:active {
+  background-color: #ffa500;
+  box-shadow: 0px 2px 0px 0px #ffa500;
+  transform: translateY(2px);
+}
+
+.clock {
+  margin: auto;
+}
+
+/* footer */
+footer {
+  margin-top: 30px;
+}
